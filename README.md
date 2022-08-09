@@ -1,2 +1,0 @@
-# clash-vs-royal
-olá!!!
