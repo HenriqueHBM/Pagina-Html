@@ -1,5 +1,7 @@
 <html lang="pt-br">
+
 <head>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
 	<title>Minha Pagina</title>
 	<meta charset="UTF-8">
@@ -7,27 +9,44 @@
 </head>
 
 <body>
-	<h1> TABELAS </h1>
+	<h1> Formulário </h1>
+
 	<main>
-		<form>
+		
+				<form class='fundo'>
 
-			<label for="nomesobrenome "> Nome e Sobrenome </label>
-			<input type="text" id="nomesobrenome">
+				<label for="nomesobrenome "> Nome e Sobrenome </label>
+				<input type="text" id="nomesobrenome">
 
-			<label for="email">Email </label>
-			<input type="email" id="email">
-			
-			<label for="telefone">Telefone </label>
-			<input type="tel" id="telefone">
+				<label for="email">Email </label>
+				<input type="email" id="email">
+				
+				<label for="telefone">Telefone </label>
+				<input type="tel" id="telefone">
 
-			<label for="radio-email">Email </label>
-			<input type="radio" value="email" id="email">
-
-			<input type="submit" value ="Entregar Formulário">
-
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="46" rows="10" id ="mensagem"></textarea>
 
 
-		</form> 
+
+				<label for="radio-email">Email </label>
+				<input type="radio" name="contato" value="email" id="email">
+
+				<label for="radio-telefone">Telefone</label>
+				<input type="radio" name="contato" value=telefone id ="radio-telefone">
+
+				<label for="radio-whatsapp">Whatsapp</label>
+				<input type="radio" name="contato" value=whatsapp id ="radio-whatsapp">
+
+
+
+
+				<input type="submit" value ="Entregar Formulário">
+
+
+
+			</form> 
+		
 	</main>
 </body>
 

@@ -1,16 +1,31 @@
 main {
-	width: 940px;
-	margin: auto;
+	width: 390px;
+	margin:auto;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 2px solid  #483D8B;
+	background-color: #AFEEEE
+
+	
+
 }
 form{
-	margin: 40px 0;
+	margin: 40px ;
+	margin-left: 10px;
+
 }
+
+
 form label {
 	display: block;
+
+
 }
 form input{
 	display: block;
 	margin: 2 0 20px;
-	padding: 5px 25px;
-	width: 30%;
+	padding: 5px 5px;
+	width: 107%;
+
+
 }
