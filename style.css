@@ -3,11 +3,18 @@ main {
 	margin:auto;
 	box-sizing: border-box;
 	border-radius: 10px;
-	border: 2px solid  #483D8B;
-	background-color: #AFEEEE
+	border: 2px solid  #196F3D;
+	background-color: #D6EAF8;
+	box-shadow: 9px 5px 20px black;
 
+
+
+}
+body{
 	
-
+	 background-image: linear-gradient(to bottom right,#e3edf9,#3498DB,#005280);
+	
+	
 }
 form{
 	margin: 40px ;
@@ -20,12 +27,34 @@ form label {
 	display: block;
 
 
+
 }
+#mensagem{
+	border-radius: 5px 25px 5px 25px;
+	border: 0 none;
+
+}
+
 form input{
 	display: block;
-	margin: 2 0 20px;
-	padding: 5px 5px;
+	margin: 5 0 20px;
+	padding: 8px 10px;
 	width: 107%;
+	border-radius: 5px 20px 5px 20px;
+	box-shadow:none;
+	border: 0 none;
 
 
+
+}
+#imagem{
+	width: 20%;
+	display: block;			
+    display: inline-block;
+}
+h1{
+	color:white;
+}
+ul{
+	display: inline-block;
 }
